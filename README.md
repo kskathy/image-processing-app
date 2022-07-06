@@ -1,1 +1,2 @@
 # image-processing-app
+This program supports image filtering (blurring, sharpening, and clamping), color transformations (grayscale and sepia), creating images programmatically in PPM format, and support for importing and exporting images in PPM format. In addition, this program also features a graphical user interface. This will allow a user to interactively load, process and save images. The result of this iteration will be a program that a user can interact with, as well as use batch scripting from the previous iteration.

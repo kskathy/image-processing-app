@@ -1,0 +1,14 @@
+load testAoun.jpg
+sepia
+sharpen
+create 2
+current 2
+load testAoun.png
+grayscale
+blur
+save testAounGrayBlur png
+delete 2
+current 1
+save testAounSepiaSharp jpg
+visible false
+saveall testAounLayers png

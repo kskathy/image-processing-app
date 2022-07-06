@@ -1,0 +1,12 @@
+load aoun.png
+sepia
+sharpen
+create 2
+current 2
+load aounBlur.ppm
+grayscale
+blur
+save aounBlurGrayBlur png
+visible false
+save aounSepiaSharpen jpg
+saveall aounLayers png

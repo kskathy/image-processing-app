@@ -1,0 +1,49 @@
+- USING THE GUI
+
+- Loading and image ----------------------------------------
+- Upon running the main method, the user is prompted with a frame that indicates the user to load
+- in an image file.
+
+- In the menu at the very top of the frame, there's 4 items: File, Select, Layers, and Transformations.
+
+- To load in an image, the user can go to the File item, and select load. A JFileChooser should pop up
+- and allow the user to choose the file they want and open it.
+
+- Applying image transformations ----------------------------------------
+- Once the image is loaded in, the user can choose to apply and image transformation. In the menu item
+- Transformations, the user can choose to apply blur, grayscale, sharpen, or sepia transformation on the image.
+
+- Selecting layers ----------------------------------------
+- If the user goes to the Select menu item, the number should say 1, indicating that there is one image layer
+- loaded. The number should stay at 1 even when the up or down buttons are pressed, since there is only
+- one image layer. After creating new layers, you can select which layer to apply image transformations, which
+- layer to delete, and set the visibility of that layer.
+
+- Creating new layers ----------------------------------------
+- To create a new layer, the user can go to the Layers menu item and click create. This would create a second
+- layer.
+
+- After creating a layer, the user must load in an image into that layer. Simply, go to the Select menu item,
+- click the up button to indicate that you want to select the second layer. Then, go to the File menu item
+- to load in an image, and load in the second layer image. The image must be of the same dimensions
+- as the first image. Apply transformations wanted.
+
+- Creating layers ----------------------------------------
+- To delete a layer, go to the Select menu item to select which layer you want to delete. Then, go to the
+- Layers menu item and click delete. The layer is now deleted.
+
+- Setting visibility of layers ----------------------------------------
+- To set the visibility of a layer, go to the Select menu item to select which layer you want to set
+- the visibility of. Then, go to the Layers menu item and hover over Visible. Here, you can set the
+- visibility of the layer selected to true or false.
+
+- Saving an image ----------------------------------------
+- To save an image, go to the File menu item and click save. A JFileChooser will open up and save the image
+- as the same format the original loaded image was, and it will be saved wherever you want it to be saved from
+- the JFileChooser. This will save the topmost layer image.
+
+- Saving all images ----------------------------------------
+- To save all image layers, go to the File menu item and click save all. A JFileChooser will open up and save all
+- image layers as the same format the original loaded image was, and it will be saved wherever you want it to be saved from
+- the JFileChooser. A text file will also be saved to indicate the filepath of all images saved.
+
